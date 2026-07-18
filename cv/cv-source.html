@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Carlos Maldonado — CV</title>
+<style>
+  @page { size: Letter; margin: 20mm 18mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    color: #1f2937;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    margin: 0;
+  }
+  h1 { font-size: 20pt; margin: 0 0 2px; color: #14213d; }
+  .title { font-size: 12pt; color: #2f5fd1; font-weight: 600; margin: 0 0 8px; }
+  .contact { font-size: 9.5pt; color: #4b5563; margin: 0 0 18px; }
+  .contact a { color: #2f5fd1; text-decoration: none; }
+  h2 {
+    font-size: 11pt;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #2f5fd1;
+    border-bottom: 1px solid #d7dde6;
+    padding-bottom: 4px;
+    margin: 18px 0 10px;
+  }
+  h2:first-of-type { margin-top: 0; }
+  p { margin: 0 0 8px; }
+  .role-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .role-header h3 { font-size: 10.5pt; margin: 0; color: #14213d; }
+  .role-date { font-size: 9.5pt; color: #2f5fd1; white-space: nowrap; }
+  .role-org { font-size: 9.5pt; color: #4b5563; margin: 0 0 4px; }
+  .role-block { margin-bottom: 14px; }
+  .role-block:last-child { margin-bottom: 0; }
+  ul.bullets { margin: 0; padding-left: 16px; }
+  ul.bullets li { margin-bottom: 3px; }
+  .project { margin-bottom: 10px; }
+  .project:last-child { margin-bottom: 0; }
+  .project h3 { font-size: 10.5pt; margin: 0 0 2px; color: #14213d; }
+  .project .meta { font-size: 9pt; color: #2f5fd1; margin: 0 0 4px; }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px 20px;
+    font-size: 9.5pt;
+  }
+  .skills-grid strong { color: #14213d; }
+  .edu h3 { font-size: 10.5pt; margin: 0 0 2px; color: #14213d; }
+  .edu .role-org { margin-bottom: 2px; }
+</style>
+</head>
+<body>
+
+  <h1>Carlos Alberto Maldonado Díaz</h1>
+  <p class="title">Backend Developer Lead</p>
+  <p class="contact">
+    CDMX ·
+    <a href="mailto:cmaldonadod.217@gmail.com">cmaldonadod.217@gmail.com</a> ·
+    <a href="https://www.linkedin.com/in/carlos-alberto-maldonado-d%C3%ADaz-70542b214/">LinkedIn</a> ·
+    <a href="https://github.com/pax217">GitHub</a>
+  </p>
+
+  <h2>Perfil profesional</h2>
+  <p>Backend Developer Lead con más de 7 años de experiencia en desarrollo de software y 4 años liderando equipos técnicos. Trabajo en múltiples stacks backend (Go, .NET, Python, JavaScript) diseñando arquitecturas escalables en entornos cloud, contenedores (Docker/Kubernetes) y APIs REST y gRPC/Protocol Buffers. Combino liderazgo técnico y funcional —mentoring, code reviews, definición de estándares de calidad— con participación activa en el diseño e implementación de soluciones backend, patrones de diseño y metodologías ágiles (Scrum). Uso habitual de herramientas de IA (Claude, GitHub Copilot) bajo un enfoque de Spec-Driven Development (SDD).</p>
+
+  <h2>Experiencia laboral</h2>
+
+  <div class="role-block">
+    <div class="role-header">
+      <h3>Backend Developer Lead</h3>
+      <span class="role-date">Rol más reciente</span>
+    </div>
+    <p class="role-org">Plataforma de reclutamiento online · LATAM</p>
+    <ul class="bullets">
+      <li>Liderazgo técnico y funcional de un equipo de desarrollo backend, incluyendo mentoría y acompañamiento a desarrolladores.</li>
+      <li>Definición de arquitectura y diseño de soluciones escalables en entornos cloud, priorizando decisiones con impacto técnico y de negocio.</li>
+      <li>Code reviews y establecimiento de estándares de calidad y buenas prácticas (Clean Code, SOLID, Testing, CI/CD).</li>
+      <li>Diseño y supervisión de despliegues en entornos containerizados con Docker y Kubernetes.</li>
+      <li>Gestión técnica de incidencias en producción apoyado en observabilidad (Datadog, Grafana, Prometheus, Elasticsearch).</li>
+    </ul>
+  </div>
+
+  <div class="role-block">
+    <div class="role-header">
+      <h3>Senior Software Engineer</h3>
+      <span class="role-date">2019 – 2022</span>
+    </div>
+    <p class="role-org">Conekta</p>
+    <ul class="bullets">
+      <li>Desarrollo backend en Go de servicios y componentes para productos de pagos.</li>
+      <li>Diseño e implementación de un servicio en Go con gRPC y Protocol Buffers para procesamiento de transferencias bancarias, permitiendo a producto crear reglas antifraude propias de forma dinámica.</li>
+      <li>Diseño e implementación de APIs REST y definición de contratos entre servicios.</li>
+      <li>Contenerización de servicios con Docker y soporte en adopción de Kubernetes.</li>
+    </ul>
+  </div>
+
+  <div class="role-block">
+    <div class="role-header">
+      <h3>Software Developer Sr. (Full Stack)</h3>
+      <span class="role-date">2017 – 2019</span>
+    </div>
+    <p class="role-org">Harmon Hall</p>
+    <ul class="bullets">
+      <li>Desarrollo de skills para Alexa, integrando servicios backend con asistentes de voz.</li>
+      <li>Migración de servicios legacy a arquitecturas modernas con .NET Core y Angular.</li>
+      <li>Desarrollo full stack: APIs REST y componentes frontend.</li>
+    </ul>
+  </div>
+
+  <h2>Proyectos destacados</h2>
+
+  <div class="project">
+    <h3>Servicio de transferencias bancarias antifraude</h3>
+    <p class="meta">Conekta · Go · gRPC · Protocol Buffers</p>
+    <p>Diseño e implementación de un servicio dedicado para permitir a producto definir y aplicar reglas antifraude propias de forma dinámica sobre transferencias bancarias, sin depender de releases de backend.</p>
+  </div>
+
+  <div class="project">
+    <h3>Skills de Alexa + modernización de servicios legacy</h3>
+    <p class="meta">Harmon Hall · .NET Core · Angular</p>
+    <p>Desarrollo de skills para Alexa integradas al backend existente y migración de servicios legacy a .NET Core y Angular, modernizando el stack y sumando un nuevo canal de interacción por voz.</p>
+  </div>
+
+  <h2>Stack técnico</h2>
+  <div class="skills-grid">
+    <p><strong>Lenguajes:</strong> Go, .NET, Python, JavaScript</p>
+    <p><strong>APIs:</strong> REST, gRPC, Protocol Buffers</p>
+    <p><strong>Mensajería:</strong> Kafka, RabbitMQ</p>
+    <p><strong>Cloud &amp; IaC:</strong> AWS, Docker, Kubernetes, IaC</p>
+    <p><strong>CI/CD:</strong> Azure DevOps, Jenkins, Drone, Harness</p>
+    <p><strong>Testing:</strong> Unitario, integración, k6</p>
+    <p><strong>Observabilidad:</strong> Datadog, Grafana, Prometheus, Elasticsearch</p>
+    <p><strong>Arquitectura:</strong> Hexagonal, Clean Architecture, Microkernel, Factory, MVC</p>
+    <p><strong>Metodologías:</strong> Scrum, Agile, Claude (SDD), GitHub Copilot</p>
+  </div>
+
+  <h2>Educación</h2>
+  <div class="edu">
+    <h3>Ingeniería en Sistemas Computacionales</h3>
+    <p class="role-org">Universidad del Valle de México · 2007 – 2011 · Titulado, con cédula profesional</p>
+  </div>
+
+</body>
+</html>
