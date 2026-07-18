@@ -126,6 +126,16 @@ main {
   padding: 120px 0 72px;
 }
 
+.hero-photo {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+  margin-bottom: 24px;
+}
+
 .hero h1 {
   font-size: clamp(2.2rem, 5vw, 3rem);
 }
